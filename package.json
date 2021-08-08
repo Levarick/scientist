@@ -1,0 +1,31 @@
+{
+  "name": "scientist",
+  "version": "1.0.0",
+  "description": "This is my first Single Page Application.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levarick/scientist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levarick/scientist/issues"
+  },
+  "homepage": "https://github.com/Levarick/scientist#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
