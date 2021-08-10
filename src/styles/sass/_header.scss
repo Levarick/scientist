@@ -1,0 +1,18 @@
+header {
+  background: linear-gradient( 227deg, $secondary-color, $secondary-color-light);
+  padding: 10px;
+  .header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+      background-image: linear-gradient(127deg, $primary-color, $primary-color-light);
+      background-position: center;
+      background-size: cover;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-stroke: 2px #a1dbec;
+      text-decoration: none;
+    }
+  }
+}

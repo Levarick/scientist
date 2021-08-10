@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Questrial&display=swap');
+$font-one: 'Press Start 2P', cursive;
+$font-two: 'Questrial', sans-serif;
+$primary-color: #66cb37;
+$primary-color-light: #d8e546;
+$secondary-color: #202959;
+$secondary-color-light: #3b5593;
+$third-color: #a1dbec;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: $font-two;
+}
+
+h1 {
+  font-family: $font-one;
+  line-height: 5rem;
+}
